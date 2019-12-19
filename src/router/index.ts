@@ -12,7 +12,7 @@ const routes = [
     component: Home,
     meta:{
       requireLogin:true,
-      requireCache:true
+      requireKeep:true
     }
   },
   {
@@ -21,7 +21,7 @@ const routes = [
     component: Login,
     meta:{
       requireLogin:false,
-      requireCache:false
+      requireKeep:false
     }
   },
   {
@@ -30,7 +30,7 @@ const routes = [
     component: Register,
     meta:{
       requireLogin:false,
-      requireCache:false
+      requireKeep:false
     }
   }
 ]
